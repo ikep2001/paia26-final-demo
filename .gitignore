@@ -1,0 +1,35 @@
+# Python and local virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.env
+.env.*
+*.swp
+*~
+
+# ROS2 / colcon generated files
+**/build/
+**/install/
+**/log/
+
+# Private experiments, runtime logs and locks
+runs/
+evidence/
+submission/
+*.jsonl
+*.log
+.paia_final_execute.lock
+*.lock
+
+# Media and local archives: do not publish accidentally
+*.mp4
+*.mov
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.zst
+.DS_Store
+.ipynb_checkpoints/
