@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>paia26_sweep</name>
+  <version>1.0.0</version>
+  <description>LLM-guided L-shaped forearm plus/minus 90 degree CRANE+ V2 sweep, simulator only</description>
+  <maintainer email="noreply@example.invalid">PAIA26 student</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>crane_plus_description</exec_depend>
+  <exec_depend>crane_plus_moveit_config</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
